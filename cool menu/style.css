@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #efefef;
+    width: 100vw;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-inline: 20px;
+    /* background-color: red; */
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+}
+.content-slider{
+    position: relative;
+    width: 100vw;
+    height: 80px;
+    /* border-top:1px solid rgba(0, 0, 0, 0.418) ; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247) ;
+}
+.first{
+    border-top:1px solid rgba(0, 0, 0, 0.247);
+}
+.home_link{
+    font-size: 4.6rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #000;
+    /* text-align: center; */
+}
+.slider_container{
+    width: auto;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #003749;
+     visibility:hidden;
+     transition: .3s ease;
+}
+.maquet1, .marquet2{
+    display: flex;
+    align-items: center;
+    animation: moving 8s linear infinite;
+}
+@keyframes moving{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.span_text{
+    font-size: 4rem;
+    white-space: nowrap;
+    color: #fff;
+    /* font-weight: bold; */
+
+}
+.content-slider:hover .slider_container{
+    visibility: visible;
+    height: 100%;
+    box-shadow: 1px 1px 8px 4px #000;
+   
+}
+.span_image1{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/6.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image2{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/2.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image3{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/3.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image4{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/1 (2).jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image5{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/4.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image6{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/5.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image7{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/7.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image8{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/8.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image9{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/9.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image10{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/5.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image11{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/10.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.span_image12{
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    margin-inline: 15px;
+    background-image: url('./img/6.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
